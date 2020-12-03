@@ -1,0 +1,59 @@
+@font-face {
+	font-family: Overpass-Light;
+	src: url(fonts/Overpass-Light.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Overpass-LightItalic;
+	src: url(fonts/Overpass-LightItalic.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Overpass-SemiBoldItalic;
+	src: url(fonts/Overpass-SemiBoldItalic.ttf) format("truetype");
+}
+
+.content {
+	width: 800px;
+	overflow: auto;
+	margin: 150px auto 0px auto;
+}
+
+#about-container {
+	float: right;
+	width: 60%;
+}
+
+
+#about-container p {
+	font-size: 24px;
+	font-family: Overpass-Light; 
+}
+
+a {
+	color: black;
+	font-family: Overpass-LightItalic; 
+}
+
+a:hover {
+	font-family: Overpass-SemiBoldItalic;
+}
+
+.a-selected {
+	font-family: Overpass-SemiBoldItalic;
+}
+
+#about-container p:first-child {
+	font-size: 30px;
+	font-family: Overpass-SemiBoldItalic;
+}
+
+#profile-picture-container {
+	float: left;
+	width: 40%;
+}
+
+#profile-picture {
+	border-radius: 7px;
+}
+
